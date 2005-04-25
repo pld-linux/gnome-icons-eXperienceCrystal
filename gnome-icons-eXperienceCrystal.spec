@@ -2,6 +2,7 @@
 %define realname eXperienceCrystal
 #
 Summary:	eXperience Crystal
+Summary(pl):	eXperience Crystal
 Name:		gnome-icons-eXperienceCrystal
 Version:	1.1.1
 Release:	0.1
