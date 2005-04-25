@@ -1,8 +1,8 @@
 #
 %define realname eXperienceCrystal
 #
-Summary:	eXperience Crystal
-Summary(pl):	eXperience Crystal
+Summary:	eXperience Crystal icon theme
+Summary(pl):	Motyw ikon eXperience Crystal
 Name:		gnome-icons-eXperienceCrystal
 Version:	1.1.1
 Release:	0.1
@@ -15,12 +15,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-An icon theme to go with the eXperience Gtk-theme. It's based on Everaldos 
-Crystal theme. Actually only some icons are changed.
+An icon theme to go with the eXperience Gtk-theme. It's based on
+Everaldos Crystal theme. Actually only some icons are changed.
 
 %description -l pl
-Zestaw ikonek do wykorzystanie razem z tematem eXperience. Ikonki s± bazowane
-na zestawie Everaldos Crystal. W tej chwili tylko niektóre ikonki s± zmienione.
+Zestaw ikonek do wykorzystanie razem z tematem eXperience. Ikonki s±
+oparte na zestawie Everaldos Crystal. W tej chwili tylko niektóre
+ikonki s± zmienione.
 
 %prep
 %setup -q -n %{realname}
@@ -58,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%{realname}/scalable/stock/navigation/*.svg
 %{_iconsdir}/%{realname}/scalable/stock/text/*.svg
 
-%dir %{_iconsdir}/%{realname}/128x128/
+%dir %{_iconsdir}/%{realname}/128x128
 %dir %{_iconsdir}/%{realname}/128x128/mimetypes
 %{_iconsdir}/%{realname}/128x128/mimetypes/*.png
 %dir %{_iconsdir}/%{realname}/128x128/filesystems
@@ -72,7 +73,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/128x128/devices/apps
 %{_iconsdir}/%{realname}/128x128/devices/apps/*.png
 
-%dir %{_iconsdir}/%{realname}/16x16/
+%dir %{_iconsdir}/%{realname}/16x16
 %dir %{_iconsdir}/%{realname}/16x16/mimetypes
 %{_iconsdir}/%{realname}/16x16/mimetypes/*.png
 %dir %{_iconsdir}/%{realname}/16x16/filesystems
@@ -86,7 +87,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/16x16/devices/apps
 %{_iconsdir}/%{realname}/16x16/devices/apps/*.png
 
-%dir %{_iconsdir}/%{realname}/32x32/
+%dir %{_iconsdir}/%{realname}/32x32
 %dir %{_iconsdir}/%{realname}/32x32/mimetypes
 %{_iconsdir}/%{realname}/32x32/mimetypes/*.png
 %dir %{_iconsdir}/%{realname}/32x32/filesystems
@@ -100,7 +101,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/32x32/devices/apps
 %{_iconsdir}/%{realname}/32x32/devices/apps/*.png
 
-%dir %{_iconsdir}/%{realname}/48x48/
+%dir %{_iconsdir}/%{realname}/48x48
 %dir %{_iconsdir}/%{realname}/48x48/mimetypes
 %{_iconsdir}/%{realname}/48x48/mimetypes/*.png
 %dir %{_iconsdir}/%{realname}/48x48/filesystems
@@ -117,7 +118,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/48x48/emblems
 %{_iconsdir}/%{realname}/48x48/emblems/*.png
 
-%dir %{_iconsdir}/%{realname}/22x22/
+%dir %{_iconsdir}/%{realname}/22x22
 %dir %{_iconsdir}/%{realname}/22x22/mimetypes
 %{_iconsdir}/%{realname}/22x22/mimetypes/*.png
 %dir %{_iconsdir}/%{realname}/22x22/filesystems
@@ -131,7 +132,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/22x22/devices/apps
 %{_iconsdir}/%{realname}/22x22/devices/apps/*.png
 
-%dir %{_iconsdir}/%{realname}/64x64/
+%dir %{_iconsdir}/%{realname}/64x64
 %dir %{_iconsdir}/%{realname}/64x64/mimetypes
 %{_iconsdir}/%{realname}/64x64/mimetypes/*.png
 %dir %{_iconsdir}/%{realname}/64x64/filesystems
