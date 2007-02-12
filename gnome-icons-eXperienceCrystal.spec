@@ -2,7 +2,7 @@
 %define realname eXperienceCrystal
 #
 Summary:	eXperience Crystal icon theme
-Summary(pl):	Motyw ikon eXperience Crystal
+Summary(pl.UTF-8):   Motyw ikon eXperience Crystal
 Name:		gnome-icons-eXperienceCrystal
 Version:	1.1.1
 Release:	0.1
@@ -18,10 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 An icon theme to go with the eXperience Gtk-theme. It's based on
 Everaldos Crystal theme. Actually only some icons are changed.
 
-%description -l pl
-Zestaw ikonek do wykorzystanie razem z tematem eXperience. Ikonki s±
-oparte na zestawie Everaldos Crystal. W tej chwili tylko niektóre
-ikonki s± zmienione.
+%description -l pl.UTF-8
+Zestaw ikonek do wykorzystanie razem z tematem eXperience. Ikonki sÄ…
+oparte na zestawie Everaldos Crystal. W tej chwili tylko niektÃ³re
+ikonki sÄ… zmienione.
 
 %prep
 %setup -q -n %{realname}
