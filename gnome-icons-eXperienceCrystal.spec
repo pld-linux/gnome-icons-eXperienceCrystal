@@ -2,7 +2,7 @@
 %define realname eXperienceCrystal
 #
 Summary:	eXperience Crystal icon theme
-Summary(pl.UTF-8):   Motyw ikon eXperience Crystal
+Summary(pl.UTF-8):	Motyw ikon eXperience Crystal
 Name:		gnome-icons-eXperienceCrystal
 Version:	1.1.1
 Release:	0.1
